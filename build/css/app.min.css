@@ -600,7 +600,6 @@ fieldset {
   }
 }
 .main-content {
-  height: 250vh;
   position: relative;
   z-index: 1;
   padding: 7rem 0rem;
@@ -608,7 +607,7 @@ fieldset {
 }
 @media (min-width: 768px) {
   .main-content {
-    height: 150vh;
+    height: 100vh;
   }
 }
 @media (max-width: 1024px) and (orientation: landscape) {
