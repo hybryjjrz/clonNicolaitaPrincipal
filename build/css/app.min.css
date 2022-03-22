@@ -612,7 +612,7 @@ fieldset {
 }
 @media (max-width: 1024px) and (orientation: landscape) {
   .main-content {
-    height: 250vh;
+    height: 270vh;
   }
 }
 @media (max-width: 768px) and (orientation: landscape) {
