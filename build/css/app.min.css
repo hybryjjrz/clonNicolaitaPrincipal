@@ -605,7 +605,12 @@ fieldset {
   padding: 7rem 0rem;
   height: 180vh;
 }
-@media (max-width: 1024px) and (orientation: landscape) {
+@media (min-width: 768px) {
+  .main-content {
+    height: 100vh;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
   .main-content {
     height: 270vh;
   }
@@ -618,11 +623,6 @@ fieldset {
 @media (max-width: 680px) and (orientation: landscape) {
   .main-content {
     height: 300vh;
-  }
-}
-@media (min-width: 768px) {
-  .main-content {
-    height: 100vh;
   }
 }
 
